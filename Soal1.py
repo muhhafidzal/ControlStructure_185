@@ -4,4 +4,15 @@
 #If % is >=70 then Good performance
 #If % is >=60 then average performance
 
-nilai = float(input("Masukkan Nilainya:"))
+nilai = float(input("Masukkan nilainya: "))
+
+if nilai >= 90:
+    print("Excellent")
+elif nilai >= 80:
+    print("Very Good")
+elif nilai >= 70:
+    print("Good")
+elif nilai >= 60:
+    print("Average")
+else:
+    print("Poor")
