@@ -6,7 +6,7 @@
 #5 5 5 5 5
 #If user enters n value as 5
 
-n = int(input("Ente n: "))
+n = int(input("Masukkan n: "))
 
 for i in range(1, n + 1):
     for j in range(i):
